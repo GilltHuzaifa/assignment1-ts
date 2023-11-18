@@ -1,6 +1,6 @@
-let favoritename = 7;
+let favoritenumber = 7;
 
-let message = `My favorite name is  ${favoritename}`;
+let message = `My favorite number is  ${favoritenumber}`;
 
 console.log(message);
 export {};

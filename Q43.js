@@ -1,7 +1,9 @@
 "use strict";
 let magiansname = ["Celtic", "Norse", "mythical creatures"];
-let magic = (magiansname) => {
+let make_great = (magiansname) => {
     for (let magiansnames of magiansname)
         console.log(magiansnames, "the great");
 };
-magic(magiansname);
+make_great(magiansname);
+const newArray = [...magiansname];
+console.log(newArray);
